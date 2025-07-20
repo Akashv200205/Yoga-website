@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Yoga</title>
+  <link rel="icon" href="https://i.pinimg.com/1200x/04/c3/ac/04c3ac4eeb0169acd9453e0e4874a7f7.jpg" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Roboto Slab', serif;
+    }
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  
+  <header>
+    <nav class="bg-white border-b border-gray-200 dark:bg-gray-900 shadow-sm">
+      <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
+        <a href="#" class="flex items-center space-x-3">
+          <img src="https://i.pinimg.com/1200x/04/c3/ac/04c3ac4eeb0169acd9453e0e4874a7f7.jpg" class="h-8" alt="Yoga Logo" />
+          <span class="text-2xl font-bold text-gray-800 dark:text-white">Yoga Master</span>
+        </a>
+
+        
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="#" class="text-green-400 hover:text-gray-50  border-gray-500  ">Home</a>
+          <a href="#about" class="text-green-400 hover:text-gray-50 bg border-gray-500 ">About</a>
+          <a href="#services" class="text-green-400 hover:text-gray-50 bg border-gray-500  ">Classes</a>
+          <a href="membership.html" class="text-green-400 hover:text-gray-50 bg border-gray-500 ">Membership</a>
+          <a href="#contact" class="text-green-400 hover:text-gray-50 bg border-gray-500 ">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="flex flex-col items-center justify-center h-screen bg-[url('https://cdn.pixabay.com/photo/2016/11/18/14/15/woman-1834827_1280.jpg')] bg-cover bg-center text-white">
+    <h1 class="text-4xl md:text-5xl font-bold drop-shadow-lg mb-4 text-yellow-300 text-center">Meditation is a way to nourish and blossom the divinity within you.</h1>
+    <div class="bg-white/20 backdrop-blur-sm p-6 rounded-lg border border-gray-200 text-center shadow-lg">
+      <h2 class="text-3xl font-semibold text-white mb-2">Find Your Inner Peace</h2>
+      <p class="mb-4 text-gray-200">Book your first session now</p>
+      <button  class="bg-yellow-400 hover:bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold"> <a href="membership.html">Book Now</a></button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <h2 class="text-4xl text-center font-bold mb-10">About Yoga</h2>
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 px-5">
+      <div class="w-full md:w-1/2">
+        <img src="https://i.pinimg.com/736x/aa/b4/00/aab400ef62363c84aa26615cf0c041d1.jpg" class="h-120 w-auto" alt="Yoga Pose" />
+      </div>
+      <div class="w-full md:w-1/2 text-gray-700 text-lg text-justify">
+        <p>
+          <b>Yoga</b> is much more than just a physical workout — it is a holistic discipline that unites the body, mind, and soul.
+          Originating over 5,000 years ago in ancient India, yoga brings harmony between human consciousness and the universe.
+          The word “yoga” comes from the Sanskrit root <em>"yuj"</em>, which means to join or unite — symbolizing the union of
+          the individual self with the higher self.
+        </p>
+        <p class="my-2">
+          Yoga is a journey inward — a practice that nurtures balance, clarity, and peace within.
+          Rooted in ancient wisdom, yoga goes beyond postures, inviting practitioners to embrace mindfulness and self-awareness.
+          The practice integrates breath, movement, and stillness to awaken inner strength and serenity.
+          The Sanskrit word <em>"asana"</em> refers not just to physical poses, but to finding ease and stability both on and off
+          the mat.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Video -->
+  <section class="py-16 bg-white">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold mb-6">Watch a Demo</h2>
+      <iframe class="mx-auto rounded-lg shadow-lg" width="560" height="315" src="https://www.youtube.com/embed/wCUI1bwlJqA?si=fSYbDkeu7wRBIDyS" title="Yoga Demo" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Review Section -->
+<section class="bg-gray-100 py-16" id="reviews">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Review 1 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all">
+        <div class="flex items-center mb-4">
+          <img src="https://i.pravatar.cc/100?img=12" alt="Client 1" class="w-12 h-12 rounded-full mr-4">
+          <div>
+            <p class="text-lg font-semibold">Ananya Sharma</p>
+            <p class="text-sm text-gray-500">Student</p>
+          </div>
+        </div>
+        <p class="text-gray-700 italic">“ZenFlow has transformed my mornings. I feel calmer and more energized throughout the day. Highly recommend!”</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all">
+        <div class="flex items-center mb-4">
+          <img src="https://i.pravatar.cc/100?img=47" alt="Client 2" class="w-12 h-12 rounded-full mr-4">
+          <div>
+            <p class="text-lg font-semibold">Ravi Verma</p>
+            <p class="text-sm text-gray-500">Corporate Professional</p>
+          </div>
+        </div>
+        <p class="text-gray-700 italic">“Their online classes are very helpful. Great instructors and calming atmosphere. I feel mentally and physically better.”</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all">
+        <div class="flex items-center mb-4">
+          <img src="https://i.pravatar.cc/100?img=33" alt="Client 3" class="w-12 h-12 rounded-full mr-4">
+          <div>
+            <p class="text-lg font-semibold">Meera Nair</p>
+            <p class="text-sm text-gray-500">Freelancer</p>
+          </div>
+        </div>
+        <p class="text-gray-700 italic">“The breathing exercises and guided meditations have helped me manage stress better. Beautiful space and energy.”</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-12">Our Yoga Classes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <img src="img/yoga class.jpg" alt="Hatha Yoga" class="rounded-md mb-4">
+        <h3 class="text-2xl font-semibold mb-2">Hatha Yoga</h3>
+        <p class="text-gray-700">Balance your body and mind with classic Hatha poses. Great for beginners to intermediate levels.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <img src="img/class1.jpg" alt="Vinyasa Flow" class="rounded-md mb-4">
+        <h3 class="text-2xl font-semibold mb-2 my-9">Vinyasa Flow</h3>
+        <p class="text-gray-700 my-4">A dynamic flow of postures linked with breath — energizing and perfect for building strength and flexibility.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
+        <img src="img/class2.jpg" alt="Yin Yoga" class="rounded-md mb-4">
+        <h3 class="text-2xl font-semibold mb-2">Yin Yoga</h3>
+        <p class="text-gray-700">Slow-paced practice focused on deep tissue release and mindfulness. Ideal for stress relief and inner calm.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-gray-400 mt-10">
+    <div class="max-w-screen-xl mx-auto p-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-white text-xl font-semibold mb-3"> Yoga</h3>
+          <p>Find balance. Find clarity. Start your journey with us.</p>
+        </div>
+        <div>
+          <h3 class="text-white text-xl font-semibold mb-3">Quick Links</h3>
+          <ul>
+            <li><a href="#" class="hover:text-white">Home</a></li>
+            <li><a href="#about" class="hover:text-white">About</a></li>
+            <li><a href="#services" class="hover:text-white">Classes</a></li>
+            <li><a href="#contact" class="hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white text-xl font-semibold mb-3">Contact</h3>
+          <div class="flex space-x-4">
+            <div>
+               <a href="#" class="hover:text-white">+915675465450</a>
+            </div>
+            <a href="#" class="hover:text-white">Facebook</a>
+            <a href="#" class="hover:text-white">Instagram</a>
+            <a href="#" class="hover:text-white">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-gray-700" />
+      <p class="text-center text-sm">© 2025 ZenFlow Yoga. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
